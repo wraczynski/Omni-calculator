@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(248,248,255);
+}
+
+.navbar-main{
+  background-color: rgb(219, 219, 219);
+  font-weight: bold;
+  font-size: large;
+  padding: 10px 15px;
+}
+
+textarea{
+  resize: none;
+  padding: 10px;
+}
+
+.center{
+  text-align: center;
+}
+
+.note-form{
+  margin: auto;
+  width: 25vw;
+}
+
+.note-form textarea{
+  width: 100%;
+}
+
+.note{
+  margin: 20px auto;
+  padding: 20px;
+  width: 50vw;
+  background-color: rgb(228, 228, 228);
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.note-date{
+  text-align: left;
+  cursor: pointer;
+}
+
+.button{
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 10px 5px;
+  cursor: pointer;
+}
+
+.delete-button{
+  color: white;
+  background-color: red;
+  border: 1px solid white;
+  float: right;
+}
+
+.single-note-date{
+  text-align: right;
+}
+
+.row{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.row div{
+  text-align: left;
+  flex: 90%;
+}
+
+.row button{
+  height: fit-content;
+  align-items: center;
+  flex: 10%;
+}
+
+.button-container{
+  width: 50vw;
+  margin: auto;
+  padding: 30px 0;
+}
+.back-button{
+  float: left;
+  border: 1px solid black;
+}
+
